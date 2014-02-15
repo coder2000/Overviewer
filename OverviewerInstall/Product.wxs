@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="Overviewer" Language="1033" Version="0.0.11.96" Manufacturer="Dieter Lunn" UpgradeCode="e0263085-ebf0-4759-aa65-dbdf49621f5a">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="Overviewer" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+    <UIRef Id="WixUI_InstallDir"/>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="Overviewer" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <ComponentGroupRef Id="OverviewerFiles" />
+      <Component Id="GuiExe" Guid="ffb97b04-e4a6-4584-80eb-5f3a2900347a">
+        <File Id="GuiExeFile" KeyPath="yes" Source="$(var.OverviewerGUI.TargetPath)" />
+      </Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>
