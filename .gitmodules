@@ -1,0 +1,3 @@
+[submodule "Overviewer-GUI"]
+	path = Overviewer-GUI
+	url = git@github.com:coder2000/Overviewer-GUI.git
