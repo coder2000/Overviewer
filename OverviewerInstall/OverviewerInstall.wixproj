@@ -67,5 +67,6 @@
 	</Target> -->
 	<Target Name="AfterBuild">
     <MSBuild Condition=" '$(Platform)' == 'x86' " Projects="$(MSBuildProjectFile)" Properties="Platform=x64;PlatFormTarget=x64" RunEachTargetSeparately="true" />
+    <Copy SourceFiles="$(ProjectDir)\bin\x64\$(ConfigurationName)\$(TargetName).msi" DestinationFiles="$(ProjectDir)\bin\x64\$(ConfigurationName)\$(TargetName)x64.msi" SkipUnchangedFiles="true" />
 	</Target>
 </Project>

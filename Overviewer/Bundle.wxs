@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:bal="http://schemas.microsoft.com/wix/BalExtension">
+	<Bundle Name="Overviewer" Version="0.0.11.96" Manufacturer="Dieter Lunn" UpgradeCode="aea03cae-0804-4d4d-88fb-ce3158838cf0">
+    <BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.HyperlinkSidebarLicense">
+      <bal:WixStandardBootstrapperApplication LicenseUrl="https://www.gnu.org/licenses/gpl-3.0-standalone.html" LogoFile="$(var.ProjectDir)grass.ico" />
+    </BootstrapperApplicationRef>
+
+		<Chain>
+      <PackageGroupRef Id="NetFx45Web" />
+      <MsiPackage Id="Overviewerx86" SourceFile="$(var.OverviewerInstall.TargetPath)" Compressed="yes" InstallCondition="NOT VersionNT64" />
+      <MsiPackage Id="Overviewerx64" SourceFile="$(var.OverviewerInstall.ProjectDir)\bin\x64\$(var.Configuration)\$(var.OverviewerInstall.TargetName)x64.msi" Compressed="yes" InstallCondition="VersionNT64" />
+		</Chain>
+	</Bundle>
+</Wix>
