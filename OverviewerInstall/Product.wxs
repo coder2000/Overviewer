@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Id="*" Name="Overviewer" Language="1033" Version="0.0.11.96" Manufacturer="Dieter Lunn" UpgradeCode="e0263085-ebf0-4759-aa65-dbdf49621f5a">
-		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+  
+  <?define ProductName = "Overviewer" ?>
+  <?define ProductVersion = "0.0.11.96" ?>
+  <?define ProductFullVersion = "0.0.11.96" ?>
+  <?define ProductAuthor = "Dieter Lunn" ?>
+  <?define ProductAppFolder = "Overviewer" ?>
+  
+  <?if $(var.Platform) = x64 ?>
+    <?define ProductDisplayName = "$(var.ProductName) (64 bit)" ?>
+    <?define ProductId = "8665ecc8-e6e0-4e3a-98a8-f0d02a85a3ed" ?>
+    <?define ProductUpgradeCode = "d4d6b105-72cc-414f-b437-93e596385c88" ?>
+    <?define PlatformProgramFilesFolder = "ProgramFiles64Folder" ?>
+  <?else ?>
+    <?define ProductDisplayName = "$(var.ProductName)" ?>
+    <?define ProductId = "58fa10d3-caed-43b0-950a-bcd9a15aad19" ?>
+    <?define ProductUpgradeCode = "39b5914b-dba6-4f61-8105-2b62587b816e" ?>
+    <?define PlatformProgramFilesFolder = "ProgramFilesFolder" ?>
+  <?endif ?>  
+    
+	<Product Id="$(var.ProductId)" Name="$(var.ProductDisplayName) (v$(var.ProductVersion))" Language="1033" Version="$(var.ProductFullVersion)" Manufacturer="$(var.ProductAuthor)" UpgradeCode="$(var.ProductUpgradeCode)">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" Platform="x64" />
 
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
-		<MediaTemplate />
+		<MediaTemplate EmbedCab="yes" />
 
 		<Feature Id="ProductFeature" Title="Overviewer" Level="1">
 			<ComponentGroupRef Id="ProductComponents" />
+      <ComponentRef Id="OverviewerShortcut" />
 		</Feature>
 
     <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
@@ -16,18 +36,28 @@
 
 	<Fragment>
 		<Directory Id="TARGETDIR" Name="SourceDir">
-			<Directory Id="ProgramFilesFolder">
-				<Directory Id="INSTALLFOLDER" Name="Overviewer" />
+			<Directory Id="$(var.PlatformProgramFilesFolder)">
+				<Directory Id="INSTALLFOLDER" Name="$(var.ProductAppFolder)" />
 			</Directory>
+    
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="OverviewerFolder" Name="Overviewer" />
+      </Directory>
 		</Directory>
 	</Fragment>
 
 	<Fragment>
 		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
-      <ComponentGroupRef Id="OverviewerFiles" />
+      <ComponentGroupRef Id="Overviewer$(var.Platform)" />
       <Component Id="GuiExe" Guid="ffb97b04-e4a6-4584-80eb-5f3a2900347a">
         <File Id="GuiExeFile" KeyPath="yes" Source="$(var.OverviewerGUI.TargetPath)" />
       </Component>
 		</ComponentGroup>
+  
+    <Component Id="OverviewerShortcut" Directory="OverviewerFolder" Guid="dbbc9fb3-ffea-420e-a1df-8fcbe34a4850">
+      <Shortcut Id="StartMenuShortcut" Name="Overviewer" Description="Minecraft map generator" Target="[#GuiExeFile]" WorkingDirectory="INSTALLFOLDER" />
+      <RemoveFolder Id="OverviewerFolder" On="uninstall" />
+      <RegistryValue Root="HKCU" Key="Software\Overviewer\Overviewer" Value="1" Name="installed" Type="integer" KeyPath="yes" />
+    </Component>
 	</Fragment>
 </Wix>

@@ -1,585 +1,585 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
     <Fragment>
-        <ComponentGroup Id="OverviewerFiles">
+        <ComponentGroup Id="Overviewerx64">
             <Component Id="cmp899AE0D57B6EB850D2AF96003CF4B634" Directory="INSTALLFOLDER" Guid="{2B613B61-5DFE-4404-B573-B9B45656DBA1}">
-                <File Id="fil7E89A93E14486534417341EE067CED36" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\bz2.pyd" />
+                <File Id="fil7E89A93E14486534417341EE067CED36" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\bz2.pyd" />
             </Component>
             <Component Id="cmpA27E4F60E211C79705C129E11BED04A4" Directory="INSTALLFOLDER" Guid="{D9EE25A7-CAAE-4683-B3D0-F01008D25DAB}">
-                <File Id="filD0B74B1D87C8C04A7EA47621CB052422" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\contribManager.exe" />
+                <File Id="filD0B74B1D87C8C04A7EA47621CB052422" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\contribManager.exe" />
             </Component>
             <Component Id="cmp70ECD501A6D0CEFCA019B73AD8A9AA01" Directory="INSTALLFOLDER" Guid="{F9DF5274-761A-4C3E-B223-614861355347}">
-                <File Id="fil83CDB3A25BFA9DDDBDB80CE087B55546" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\CONTRIBUTORS.rst" />
+                <File Id="fil83CDB3A25BFA9DDDBDB80CE087B55546" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\CONTRIBUTORS.rst" />
             </Component>
             <Component Id="cmp44A0B85468D59B3EB73C0827E755597A" Directory="INSTALLFOLDER" Guid="{9A97241A-98DA-496E-9486-5319827AD4BA}">
-                <File Id="filB5280C313E26C75670DC68473CBB3125" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\COPYING.txt" />
+                <File Id="filB5280C313E26C75670DC68473CBB3125" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\COPYING.txt" />
             </Component>
             <Component Id="cmp639E8897C7298F9D94EC46FD9E631BB2" Directory="INSTALLFOLDER" Guid="{1D1D57CE-0F1E-452F-ABF6-3631F368E849}">
-                <File Id="fil34A73D3D01F6C024292BD6C70A37424F" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\libiomp5md.dll" />
+                <File Id="fil34A73D3D01F6C024292BD6C70A37424F" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\libiomp5md.dll" />
             </Component>
             <Component Id="cmpF742B4954BF35F021DD79FD0D9F206DD" Directory="INSTALLFOLDER" Guid="{FF1EB9AD-B042-40B0-97B5-A769836BF4B5}">
-                <File Id="fil4892B6AE12633F3EF22A11AEE94F56D3" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\MSVCR100.dll" />
+                <File Id="fil4892B6AE12633F3EF22A11AEE94F56D3" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\MSVCR100.dll" />
             </Component>
             <Component Id="cmpB55E676D5E08482C6FE81AFFC5284765" Directory="INSTALLFOLDER" Guid="{C6CF198B-0F92-486C-BDE9-073AF6FA6E83}">
-                <File Id="filC7671AAE7DED64A40D6CBC48E8B6DDBF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.core.multiarray.pyd" />
+                <File Id="filC7671AAE7DED64A40D6CBC48E8B6DDBF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.core.multiarray.pyd" />
             </Component>
             <Component Id="cmpBA54F7DEDFEB8D92C50F9BE61CE115BD" Directory="INSTALLFOLDER" Guid="{B4F78F03-2515-43E5-99EF-B26EA06D5CAC}">
-                <File Id="fil774CB6AEBE363D183205D553382A6932" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.core.multiarray_tests.pyd" />
+                <File Id="fil774CB6AEBE363D183205D553382A6932" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.core.multiarray_tests.pyd" />
             </Component>
             <Component Id="cmp75D5A09894DCEF57E7A2E7484016EB6C" Directory="INSTALLFOLDER" Guid="{26664926-F0DF-4C97-956B-4D063C266E86}">
-                <File Id="filCC4A6ED32680C36FB0CAB0CA4C3133D9" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.core.operand_flag_tests.pyd" />
+                <File Id="filCC4A6ED32680C36FB0CAB0CA4C3133D9" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.core.operand_flag_tests.pyd" />
             </Component>
             <Component Id="cmpE0A13539434DDCB747867C3E88B44307" Directory="INSTALLFOLDER" Guid="{0AB712B7-D16F-4058-96EB-46B8D71702D5}">
-                <File Id="fil0F2E8B94FA116EE183D8E3687338ED77" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.core.scalarmath.pyd" />
+                <File Id="fil0F2E8B94FA116EE183D8E3687338ED77" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.core.scalarmath.pyd" />
             </Component>
             <Component Id="cmp5451591BC9BF2936C28A8FBB3A663995" Directory="INSTALLFOLDER" Guid="{EFAFB05B-9CD6-4C23-87D1-D2792066F809}">
-                <File Id="fil18FE20E49107E954740A15703CAD5451" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.core.struct_ufunc_test.pyd" />
+                <File Id="fil18FE20E49107E954740A15703CAD5451" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.core.struct_ufunc_test.pyd" />
             </Component>
             <Component Id="cmpA907E2A353269151D8341C1B43961062" Directory="INSTALLFOLDER" Guid="{0A052757-279F-44D8-811F-DADC81FFE7C2}">
-                <File Id="filF202394D4C7B61DB8638783E6F786AD0" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.core.test_rational.pyd" />
+                <File Id="filF202394D4C7B61DB8638783E6F786AD0" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.core.test_rational.pyd" />
             </Component>
             <Component Id="cmpBF266EF386E03233CE69647569FDB5EA" Directory="INSTALLFOLDER" Guid="{7571FE4B-789C-4A87-9C7F-D2BD806CEE47}">
-                <File Id="filA2D670E1CE0B9B75925129FD5BDC314D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.core.umath.pyd" />
+                <File Id="filA2D670E1CE0B9B75925129FD5BDC314D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.core.umath.pyd" />
             </Component>
             <Component Id="cmp0FBDABF150894E864B5BCB896E7086D3" Directory="INSTALLFOLDER" Guid="{68AD63FF-4DFC-48AE-A8B0-13EA6CE448BB}">
-                <File Id="fil65CF5FC2F172F09B8C2ED4D7757FE3CD" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.core.umath_tests.pyd" />
+                <File Id="fil65CF5FC2F172F09B8C2ED4D7757FE3CD" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.core.umath_tests.pyd" />
             </Component>
             <Component Id="cmpC4FCEEBA6F7440AB9AE97437C5B37429" Directory="INSTALLFOLDER" Guid="{FD303583-A111-4BE6-8367-BE97F60ED869}">
-                <File Id="fil2ECD579984ED2BC8AB594FCFBB0F4765" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.core._dotblas.pyd" />
+                <File Id="fil2ECD579984ED2BC8AB594FCFBB0F4765" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.core._dotblas.pyd" />
             </Component>
             <Component Id="cmp28B1E77E9DB1953126573A4A4A385C5B" Directory="INSTALLFOLDER" Guid="{CA4D85BE-7445-4CC6-B873-130383BAC9AB}">
-                <File Id="filD49867E8830E5D5484E7D19590E69111" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.core._dummy.pyd" />
+                <File Id="filD49867E8830E5D5484E7D19590E69111" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.core._dummy.pyd" />
             </Component>
             <Component Id="cmpB14B8A6B06B7C116CDF6C5ED26FAE7AE" Directory="INSTALLFOLDER" Guid="{1D61E69F-A2EA-4308-BC04-18D6FAE15823}">
-                <File Id="fil3E4B6CC56C74FFB2D5A0EC238741F72B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.fft.fftpack_lite.pyd" />
+                <File Id="fil3E4B6CC56C74FFB2D5A0EC238741F72B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.fft.fftpack_lite.pyd" />
             </Component>
             <Component Id="cmp363ACB75BDBC07031AE39BD3FA7DFD59" Directory="INSTALLFOLDER" Guid="{805D9D52-802A-464B-B973-7F26AA395FDD}">
-                <File Id="fil49D3E65E5F201BF67583DC9569CF0FD5" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.lib._compiled_base.pyd" />
+                <File Id="fil49D3E65E5F201BF67583DC9569CF0FD5" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.lib._compiled_base.pyd" />
             </Component>
             <Component Id="cmp56A68BC0724D4A1C317F6AEA48E4F917" Directory="INSTALLFOLDER" Guid="{0E8BCB46-47BE-4EE4-AB04-1AF50A307159}">
-                <File Id="fil51C802988691133394622AD9180989B2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.linalg.lapack_lite.pyd" />
+                <File Id="fil51C802988691133394622AD9180989B2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.linalg.lapack_lite.pyd" />
             </Component>
             <Component Id="cmpAE4009FFF2A9A17D28E6AD79D0DFD4ED" Directory="INSTALLFOLDER" Guid="{2F5373C9-3FA2-4B44-9D15-1E973E7305BE}">
-                <File Id="filC348A60585C45B33736C1FA76ACFCC01" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.linalg._umath_linalg.pyd" />
+                <File Id="filC348A60585C45B33736C1FA76ACFCC01" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.linalg._umath_linalg.pyd" />
             </Component>
             <Component Id="cmp049CF68B955C6AF614003FAA40033DFC" Directory="INSTALLFOLDER" Guid="{E2F0E3A4-8C33-4247-9025-9000938B0711}">
-                <File Id="filF24C67ED9DDFC0FBB2E8BD2EC3B22925" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\numpy.random.mtrand.pyd" />
+                <File Id="filF24C67ED9DDFC0FBB2E8BD2EC3B22925" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\numpy.random.mtrand.pyd" />
             </Component>
             <Component Id="cmp9493D9BB152A80668D643144950246C5" Directory="INSTALLFOLDER" Guid="{FA8657FC-68EA-4A52-898E-A1A168924338}">
-                <File Id="fil68BFDB93C516E35C2AF99D986FD6BCED" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\overviewer.exe" />
+                <File Id="fil68BFDB93C516E35C2AF99D986FD6BCED" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\overviewer.exe" />
             </Component>
             <Component Id="cmp24E9313F3A92EE3906DFA77CD622F204" Directory="INSTALLFOLDER" Guid="{314D7352-21CC-4E00-A38F-ABB495F606D7}">
-                <File Id="fil5F582A6F11162F6C986829CA1D4C840E" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\overviewer_core.c_overviewer.pyd" />
+                <File Id="fil5F582A6F11162F6C986829CA1D4C840E" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\overviewer_core.c_overviewer.pyd" />
             </Component>
             <Component Id="cmp6D3979997BAEB11B229F3DDEF6B94C02" Directory="INSTALLFOLDER" Guid="{CE1F2C70-2C3A-4ED8-9D50-4FA0DBD990D7}">
-                <File Id="filAD08955F44199E6DAA38FC45F9D7558D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\PIL._imaging.pyd" />
+                <File Id="filAD08955F44199E6DAA38FC45F9D7558D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\PIL._imaging.pyd" />
             </Component>
             <Component Id="cmpF437E14EE76192D8C494C6550CFD351B" Directory="INSTALLFOLDER" Guid="{8217216F-FA6C-4A3A-A216-EF628B72E91B}">
-                <File Id="filBA2E826888D8F343D3242B024F90AC5A" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\PIL._imagingft.pyd" />
+                <File Id="filBA2E826888D8F343D3242B024F90AC5A" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\PIL._imagingft.pyd" />
             </Component>
             <Component Id="cmp3D1C30E3247EFB7B4B0B218BCD8E0829" Directory="INSTALLFOLDER" Guid="{72A1916C-1C7C-4AD3-99BC-EAE1F3D9E2B0}">
-                <File Id="filC2DAA765B64D3C7747158AFF5D9CC21B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\pyexpat.pyd" />
+                <File Id="filC2DAA765B64D3C7747158AFF5D9CC21B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\pyexpat.pyd" />
             </Component>
             <Component Id="cmp358274492229A79FC572B8E364BFB6D6" Directory="INSTALLFOLDER" Guid="{920CCCAE-C73F-40D3-B55A-E73CACA327F9}">
-                <File Id="fil07C3D144E4FC6EBE03686CC222D2F0EF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\python27.dll" />
+                <File Id="fil07C3D144E4FC6EBE03686CC222D2F0EF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\python27.dll" />
             </Component>
             <Component Id="cmpC5C0D9C651034FDA80516ED7091DB370" Directory="INSTALLFOLDER" Guid="{72762625-570E-4580-9F73-C09D1BC949D7}">
-                <File Id="fil6585C31A217D7FED4E3138C2397E5DB2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\pywintypes27.dll" />
+                <File Id="fil6585C31A217D7FED4E3138C2397E5DB2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\pywintypes27.dll" />
             </Component>
             <Component Id="cmp0BF3BDAD62998F71A7A18E1D290BF094" Directory="INSTALLFOLDER" Guid="{A3308775-F80F-4392-A0C4-80591C41C410}">
-                <File Id="filCA3594EA945408C6BE2C1F5A7D3CDB71" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\README.rst" />
+                <File Id="filCA3594EA945408C6BE2C1F5A7D3CDB71" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\README.rst" />
             </Component>
             <Component Id="cmpF1DEC4C3281946E3B86E8000B5FD5FE0" Directory="INSTALLFOLDER" Guid="{DD68693F-31BE-49AE-986B-7E2C2CA0B74F}">
-                <File Id="fil3501DCA519A282E26C69AAF8F9F61A49" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\sample_config.py" />
+                <File Id="fil3501DCA519A282E26C69AAF8F9F61A49" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\sample_config.py" />
             </Component>
             <Component Id="cmpBD807ED0AB58E1258778AB991F4120C0" Directory="INSTALLFOLDER" Guid="{76E3C0B3-799C-4E97-BCCD-CC83BF37A15C}">
-                <File Id="fil4164C4DF629548FC15257534FF70B8E4" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\select.pyd" />
+                <File Id="fil4164C4DF629548FC15257534FF70B8E4" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\select.pyd" />
             </Component>
             <Component Id="cmp24DB677F6D79CB240FA926ECAEE6F211" Directory="INSTALLFOLDER" Guid="{047B5B90-D5AB-4E81-868A-BFD5FD812F13}">
-                <File Id="fil40B83811B734869EA7307B780F3845F3" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\unicodedata.pyd" />
+                <File Id="fil40B83811B734869EA7307B780F3845F3" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\unicodedata.pyd" />
             </Component>
             <Component Id="cmpBC16FB03BF29184337800FA958603652" Directory="INSTALLFOLDER" Guid="{A832A68C-16E8-4BC3-B615-32CA86F6AC1A}">
-                <File Id="fil8F86DF0FFF08C6464EA29DE1115F845D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\win32api.pyd" />
+                <File Id="fil8F86DF0FFF08C6464EA29DE1115F845D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\win32api.pyd" />
             </Component>
             <Component Id="cmpE74B71A563000FFBEB885EDF3C301D8E" Directory="INSTALLFOLDER" Guid="{A72DFCEC-646B-4D4C-8CB1-3251FF54B6FD}">
-                <File Id="filA631FEEA683247199DF4D34FB1C09D97" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\win32pdh.pyd" />
+                <File Id="filA631FEEA683247199DF4D34FB1C09D97" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\win32pdh.pyd" />
             </Component>
             <Component Id="cmpB1691C0BC1643D0EA2F2F5A068EC2C87" Directory="INSTALLFOLDER" Guid="{4873851B-6B8C-4A1B-A46A-ABDFE5DE1B85}">
-                <File Id="fil799C8E5BD9829C5E026A1B5B5F221F38" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\win32pipe.pyd" />
+                <File Id="fil799C8E5BD9829C5E026A1B5B5F221F38" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\win32pipe.pyd" />
             </Component>
             <Component Id="cmp400E1D5557A41BA13318887A4776871A" Directory="INSTALLFOLDER" Guid="{51F91B84-F3A3-46B4-ADD1-47A3A4C4F2B9}">
-                <File Id="filACCF9FC1B9A5AD106953DE48C10C0B10" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\_ctypes.pyd" />
+                <File Id="filACCF9FC1B9A5AD106953DE48C10C0B10" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\_ctypes.pyd" />
             </Component>
             <Component Id="cmpF5A08DFC07B044DA0FDEF903915393AE" Directory="INSTALLFOLDER" Guid="{95A1B9D4-B156-432A-B091-51279879EEC7}">
-                <File Id="fil201F7BCFEAB2AE5026C76841576DCF19" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\_hashlib.pyd" />
+                <File Id="fil201F7BCFEAB2AE5026C76841576DCF19" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\_hashlib.pyd" />
             </Component>
             <Component Id="cmp16D001BC5564C7B9B2FD1C913448A5EE" Directory="INSTALLFOLDER" Guid="{7BC7DC7C-6BA5-42D0-81F6-DCC9F4443834}">
-                <File Id="filC9C50D01DACEAA26BE916C5FDF92C677" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\_multiprocessing.pyd" />
+                <File Id="filC9C50D01DACEAA26BE916C5FDF92C677" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\_multiprocessing.pyd" />
             </Component>
             <Component Id="cmp384462ACF0B76B58904A725037F845BB" Directory="INSTALLFOLDER" Guid="{4C2A3239-0814-4A96-ADDB-13765F037695}">
-                <File Id="fil7D102E6DCCC7A2C17BC1BE3989ABA4B8" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\_socket.pyd" />
+                <File Id="fil7D102E6DCCC7A2C17BC1BE3989ABA4B8" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\_socket.pyd" />
             </Component>
             <Component Id="cmpFDF05841A87BAD0CC4098CBF6E2F2A09" Directory="INSTALLFOLDER" Guid="{B2236396-C51B-453E-AEC8-B8429A819C8F}">
-                <File Id="filB04021CEA31F465F7E8DA1334E86AC96" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\_ssl.pyd" />
+                <File Id="filB04021CEA31F465F7E8DA1334E86AC96" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\_ssl.pyd" />
             </Component>
             <Component Id="cmp22805187BAF7AC351C53137D56F8F62C" Directory="dir57A2FD3D6A4716421A76767B21B067DC" Guid="{35D003FF-2EA4-487C-B581-6A6ACBE68710}">
-                <File Id="filF1D5CA38F0FCAFB2FF9AAA18959A7893" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\contrib\clearOldCache.py" />
+                <File Id="filF1D5CA38F0FCAFB2FF9AAA18959A7893" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\contrib\clearOldCache.py" />
             </Component>
             <Component Id="cmp00AD29EDB8437844B6395DB937CFCD91" Directory="dir57A2FD3D6A4716421A76767B21B067DC" Guid="{E351BC8E-1DE6-4990-819C-2815F3F94C3B}">
-                <File Id="fil3F26002168C7C0D6F3D667550D522FA3" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\contrib\contributors.py" />
+                <File Id="fil3F26002168C7C0D6F3D667550D522FA3" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\contrib\contributors.py" />
             </Component>
             <Component Id="cmpA6FAE29A1227B9FBFE7CD56528B4BD9D" Directory="dir57A2FD3D6A4716421A76767B21B067DC" Guid="{0182A717-0202-4B22-9F48-59F691455B2A}">
-                <File Id="fil6FF541BCD4254789444160D6224AB01D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\contrib\cyrillic_convert.py" />
+                <File Id="fil6FF541BCD4254789444160D6224AB01D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\contrib\cyrillic_convert.py" />
             </Component>
             <Component Id="cmpC1F984B3C04851ADB8A6814F9E9C6F85" Directory="dir57A2FD3D6A4716421A76767B21B067DC" Guid="{55993EF6-3267-4FDF-BD5C-B7972FA131AA}">
-                <File Id="filDD7F217340292E026B526A49BA351FE4" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\contrib\findSigns.py" />
+                <File Id="filDD7F217340292E026B526A49BA351FE4" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\contrib\findSigns.py" />
             </Component>
             <Component Id="cmpD47B6ADABD8D569E373EB0CD2F4C5FA8" Directory="dir57A2FD3D6A4716421A76767B21B067DC" Guid="{55C49D4A-C0E0-4B74-A920-593897187154}">
-                <File Id="fil886D719B7C9E362BDDE4FEB70917C7ED" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\contrib\gallery.py" />
+                <File Id="fil886D719B7C9E362BDDE4FEB70917C7ED" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\contrib\gallery.py" />
             </Component>
             <Component Id="cmp11D1B2405471AACCEADC0D08DB6B2947" Directory="dir57A2FD3D6A4716421A76767B21B067DC" Guid="{7A97B1F6-126E-45B2-8288-1352B40291F3}">
-                <File Id="filAF82969DBEC97DA8541A97C8AE5E5C86" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\contrib\playerInspect.py" />
+                <File Id="filAF82969DBEC97DA8541A97C8AE5E5C86" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\contrib\playerInspect.py" />
             </Component>
             <Component Id="cmpAE9AF4CE39AC8CBF0F5E1986463F21BE" Directory="dir57A2FD3D6A4716421A76767B21B067DC" Guid="{5FC705F8-9219-47D1-8408-65EF32FADF92}">
-                <File Id="fil3C6B9E73526B9C2045DA858C0B321DCF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\contrib\png-it.py" />
+                <File Id="fil3C6B9E73526B9C2045DA858C0B321DCF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\contrib\png-it.py" />
             </Component>
             <Component Id="cmp450E6194F569F0626DD3624C50153B72" Directory="dir57A2FD3D6A4716421A76767B21B067DC" Guid="{3E8152DB-656B-4474-A88B-D966B80E78E9}">
-                <File Id="fil327499CB9B37F084862ABDEA62E9FB05" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\contrib\regionTrimmer.py" />
+                <File Id="fil327499CB9B37F084862ABDEA62E9FB05" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\contrib\regionTrimmer.py" />
             </Component>
             <Component Id="cmpB12C7B534EB71FA85EAA7766FE207DA8" Directory="dir57A2FD3D6A4716421A76767B21B067DC" Guid="{79BF3589-34A4-4124-B9AC-583AF58A766B}">
-                <File Id="filEDC340A9A5E62A8BFF84D86F84467F34" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\contrib\rerenderBlocks.py" />
+                <File Id="filEDC340A9A5E62A8BFF84D86F84467F34" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\contrib\rerenderBlocks.py" />
             </Component>
             <Component Id="cmp5A3295C4F4F6C473BEFDA23AB78254B8" Directory="dir57A2FD3D6A4716421A76767B21B067DC" Guid="{A2826F99-F223-4772-92C3-89F117AF0BD6}">
-                <File Id="filF7BCD41158C509618955A5C9F514CF4B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\contrib\testRender.py" />
+                <File Id="filF7BCD41158C509618955A5C9F514CF4B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\contrib\testRender.py" />
             </Component>
             <Component Id="cmp9FDA004562F20541E4D3DDD30BBB82C8" Directory="dir57A2FD3D6A4716421A76767B21B067DC" Guid="{5C1291FE-B415-4769-A408-8180C7169E8C}">
-                <File Id="filDC1F5D62E73DF44F4F0E5BB415CBC1E5" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\contrib\validateRegionFile.py" />
+                <File Id="filDC1F5D62E73DF44F4F0E5BB415CBC1E5" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\contrib\validateRegionFile.py" />
             </Component>
             <Component Id="cmp30315F644DAC8E8D0EDD221790BBB717" Directory="dirCD8AD2DC5218A261C604B6C2092B7203" Guid="{FA26AC27-F43F-4DFB-934A-F73DA65509CF}">
-                <File Id="fil5E39192C3CBA7EA57100C45414ED7861" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\.buildinfo" />
+                <File Id="fil5E39192C3CBA7EA57100C45414ED7861" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\.buildinfo" />
             </Component>
             <Component Id="cmp75FBE04534CC7251B63C6A74896CC472" Directory="dirCD8AD2DC5218A261C604B6C2092B7203" Guid="{1D341BB1-B81E-4AE6-929A-F2154C7406D4}">
-                <File Id="fil3E8A941A7968FBF58F60B4A04ACB973F" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\building.html" />
+                <File Id="fil3E8A941A7968FBF58F60B4A04ACB973F" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\building.html" />
             </Component>
             <Component Id="cmp94466F8D806511AAE1AA8975A6BB6881" Directory="dirCD8AD2DC5218A261C604B6C2092B7203" Guid="{83C26F6A-F727-4C77-BB0C-9E9AB7D4EF98}">
-                <File Id="filCD8261C607FDC102E1165626A0F67A58" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\config.html" />
+                <File Id="filCD8261C607FDC102E1165626A0F67A58" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\config.html" />
             </Component>
             <Component Id="cmpF2227A12FABD26EA0DB513D51473C616" Directory="dirCD8AD2DC5218A261C604B6C2092B7203" Guid="{C5B6CFB3-CF57-4495-821D-824603E0CEDF}">
-                <File Id="fil9ED4851EEA3FBA8585CBA785F2A62C39" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\faq.html" />
+                <File Id="fil9ED4851EEA3FBA8585CBA785F2A62C39" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\faq.html" />
             </Component>
             <Component Id="cmp1748F6BFBF1099CA9FD86F15F4BB2095" Directory="dirCD8AD2DC5218A261C604B6C2092B7203" Guid="{5CCE625B-8E36-4BA3-AF4E-B536532E2713}">
-                <File Id="fil4D4A511C8F2F15236E10C9F052B92DB7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\genindex.html" />
+                <File Id="fil4D4A511C8F2F15236E10C9F052B92DB7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\genindex.html" />
             </Component>
             <Component Id="cmpDE93ECBB1BCF216B876FD199CC862C90" Directory="dirCD8AD2DC5218A261C604B6C2092B7203" Guid="{1D0EC478-F4AA-4347-9380-46538B86F8A2}">
-                <File Id="filFC9376D1A2D82DC4EF21FE9B88E506CB" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\index.html" />
+                <File Id="filFC9376D1A2D82DC4EF21FE9B88E506CB" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\index.html" />
             </Component>
             <Component Id="cmp41224FBAB1B7721E13BEC21338AAD55F" Directory="dirCD8AD2DC5218A261C604B6C2092B7203" Guid="{77619D5E-5287-46E2-9212-DF1374F8F972}">
-                <File Id="filEEE0864D6588BE5A4E5AAE5D2A04C15C" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\installing.html" />
+                <File Id="filEEE0864D6588BE5A4E5AAE5D2A04C15C" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\installing.html" />
             </Component>
             <Component Id="cmp517FD918B61AD9FD87181963094F6950" Directory="dirCD8AD2DC5218A261C604B6C2092B7203" Guid="{B6F5435C-4D58-40AE-9FF4-408CFFE126C5}">
-                <File Id="fil3EB56D349F3D11F8AF1610DF31253EEE" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\objects.inv" />
+                <File Id="fil3EB56D349F3D11F8AF1610DF31253EEE" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\objects.inv" />
             </Component>
             <Component Id="cmp56C75382EECD166E9F9E5FB13ABB4ABE" Directory="dirCD8AD2DC5218A261C604B6C2092B7203" Guid="{83FA9128-8314-4B82-9D6A-6AB028BBA187}">
-                <File Id="filA64B62457C18FB070327FD110A9BCDAC" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\running.html" />
+                <File Id="filA64B62457C18FB070327FD110A9BCDAC" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\running.html" />
             </Component>
             <Component Id="cmpE66E6AFF9798B6918CE5BFB42BF3C77C" Directory="dirCD8AD2DC5218A261C604B6C2092B7203" Guid="{F6D95055-05F8-47E2-9BE6-D059C23B2BB9}">
-                <File Id="filD179A1FC3BB50E706B1AE5132683FE6D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\search.html" />
+                <File Id="filD179A1FC3BB50E706B1AE5132683FE6D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\search.html" />
             </Component>
             <Component Id="cmp4EEDA95E15C2AA753953C53C9A578CAA" Directory="dirCD8AD2DC5218A261C604B6C2092B7203" Guid="{EFF32382-4D1B-41AF-AC1D-44A06265078C}">
-                <File Id="fil67E24EEA1A54A97B2194286EE9280DE5" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\searchindex.js" />
+                <File Id="fil67E24EEA1A54A97B2194286EE9280DE5" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\searchindex.js" />
             </Component>
             <Component Id="cmpB42BCE0E4E6E3C1118987BFA890D3BD3" Directory="dirCD8AD2DC5218A261C604B6C2092B7203" Guid="{CE2B1A73-561C-4E07-B921-F934F0D19E35}">
-                <File Id="fil5FA07E586E654045E75AA36E4F6DC4D6" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\signs.html" />
+                <File Id="fil5FA07E586E654045E75AA36E4F6DC4D6" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\signs.html" />
             </Component>
             <Component Id="cmp4CF199EC13D4CAD032882D7D6FBC0352" Directory="dir5F9C6B6FBD7C60A754FB13092FB4DF00" Guid="{95BCB6B9-0919-4D77-BA9D-DD47AE82134F}">
-                <File Id="filC03CB085D3401B22B6DED78AA0A40D62" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\.doctrees\building.doctree" />
+                <File Id="filC03CB085D3401B22B6DED78AA0A40D62" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\.doctrees\building.doctree" />
             </Component>
             <Component Id="cmpAEDFE7A2264B3C8F47C9564AD8607905" Directory="dir5F9C6B6FBD7C60A754FB13092FB4DF00" Guid="{E56AEB86-F184-4DC4-B854-FA4AF594E039}">
-                <File Id="fil1F70CAB41F75E73F27D071263AE35805" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\.doctrees\config.doctree" />
+                <File Id="fil1F70CAB41F75E73F27D071263AE35805" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\.doctrees\config.doctree" />
             </Component>
             <Component Id="cmpDFEE7AC354071F360D6C37567139384E" Directory="dir5F9C6B6FBD7C60A754FB13092FB4DF00" Guid="{97DAD0A7-3D9A-4BA0-A968-57AA4370B347}">
-                <File Id="fil2CFA2F9C329D5F8D2290DF168ADE4B39" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\.doctrees\environment.pickle" />
+                <File Id="fil2CFA2F9C329D5F8D2290DF168ADE4B39" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\.doctrees\environment.pickle" />
             </Component>
             <Component Id="cmpCED4F2CBD8609D40545906017FD866BE" Directory="dir5F9C6B6FBD7C60A754FB13092FB4DF00" Guid="{00716B88-D043-40FB-B5E7-4A3E6F7A4DF6}">
-                <File Id="fil8EEFD4A876F2E667E65C6ABE5A370676" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\.doctrees\faq.doctree" />
+                <File Id="fil8EEFD4A876F2E667E65C6ABE5A370676" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\.doctrees\faq.doctree" />
             </Component>
             <Component Id="cmp5DDFFF663992B3B47AAA46CDE9B57C5F" Directory="dir5F9C6B6FBD7C60A754FB13092FB4DF00" Guid="{CBAF1E8B-9460-4686-88E9-C1D41B571381}">
-                <File Id="fil5A350EA8D5583D82CB875CA656188F0E" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\.doctrees\index.doctree" />
+                <File Id="fil5A350EA8D5583D82CB875CA656188F0E" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\.doctrees\index.doctree" />
             </Component>
             <Component Id="cmpFF3AC41D1D3E2D758681537B0A92E0FA" Directory="dir5F9C6B6FBD7C60A754FB13092FB4DF00" Guid="{DB5ADFC3-6CC1-42B3-836C-35147A57735F}">
-                <File Id="fil6E868B978BBD26F4EE4800825C3433F9" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\.doctrees\installing.doctree" />
+                <File Id="fil6E868B978BBD26F4EE4800825C3433F9" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\.doctrees\installing.doctree" />
             </Component>
             <Component Id="cmp667414BD413CAF6771EA4BDD5718BAA3" Directory="dir5F9C6B6FBD7C60A754FB13092FB4DF00" Guid="{B137CC7C-886F-401C-ADFF-04E7C14A8ACC}">
-                <File Id="filED339D37DB19DBD152F39F7F9986E266" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\.doctrees\running.doctree" />
+                <File Id="filED339D37DB19DBD152F39F7F9986E266" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\.doctrees\running.doctree" />
             </Component>
             <Component Id="cmpE0AAD2CB8CCAF8415DB4D39B4819BF6C" Directory="dir5F9C6B6FBD7C60A754FB13092FB4DF00" Guid="{A799383F-8DAE-4DB1-8769-68DAA34257E4}">
-                <File Id="filF48F9DAEF32608B3A56587D6BE470E41" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\.doctrees\signs.doctree" />
+                <File Id="filF48F9DAEF32608B3A56587D6BE470E41" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\.doctrees\signs.doctree" />
             </Component>
             <Component Id="cmpE7690659F68F1314D4472F18F4F9563B" Directory="dir199352FA2F2FBBE1C15DB05AB2E0A063" Guid="{6BF73671-1D29-4DCF-A478-9B6E41F0FDC9}">
-                <File Id="fil9408A9B99ECCD38ADA75B9F8DC11BF79" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\.doctrees\design\designdoc.doctree" />
+                <File Id="fil9408A9B99ECCD38ADA75B9F8DC11BF79" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\.doctrees\design\designdoc.doctree" />
             </Component>
             <Component Id="cmpBA12344DC16FBE8AB6ABC82BD9A181C7" Directory="dirA7951880D9D4DF31FA09EDC422DD095D" Guid="{B4ED59EF-D736-481A-B071-399383EB74FA}">
-                <File Id="filB4456DFD60D5AE9E8E66790DA7D274EF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\.doctrees\win_tut\windowsguide.doctree" />
+                <File Id="filB4456DFD60D5AE9E8E66790DA7D274EF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\.doctrees\win_tut\windowsguide.doctree" />
             </Component>
             <Component Id="cmp4C52D3F4F8CB42438A2366D825D3584C" Directory="dir21CBA1A3D833B03BE07E74FD39668711" Guid="{ECF5F7CC-3D9A-42DD-80F3-4580C463EF5F}">
-                <File Id="filF0C882F5F5E8FA5903CB1B5DEF689E04" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\design\designdoc.html" />
+                <File Id="filF0C882F5F5E8FA5903CB1B5DEF689E04" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\design\designdoc.html" />
             </Component>
             <Component Id="cmpC2FB90638814F556BEBD481035FE359C" Directory="dirE61DD55CBEF47843192931B8341AC693" Guid="{2431352C-8131-4265-BA97-C76444CE46CB}">
-                <File Id="fil1E451F18A2018D5CFD72443343E4E2D1" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\win_tut\windowsguide.html" />
+                <File Id="fil1E451F18A2018D5CFD72443343E4E2D1" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\win_tut\windowsguide.html" />
             </Component>
             <Component Id="cmpB41F474B5E1ED9D3B0AE39597CC6AA52" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{F0E40933-2308-481D-8A90-D2DCC48ADEEF}">
-                <File Id="fil29AEABFC245EBC3F48558D95EC3B8D57" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\4children.png" />
+                <File Id="fil29AEABFC245EBC3F48558D95EC3B8D57" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\4children.png" />
             </Component>
             <Component Id="cmpE3CA1E5022B9A6D90D999F6706C5AD57" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{C30590B4-B441-4BC3-B63A-D7E5441F0762}">
-                <File Id="filC6EE1669B8ED546B6C4937607EAF5980" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\changed_dir.png" />
+                <File Id="filC6EE1669B8ED546B6C4937607EAF5980" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\changed_dir.png" />
             </Component>
             <Component Id="cmpC9126178FD514497BC25740605A11127" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{6E172750-120F-46A3-9556-C3B4D3D99E51}">
-                <File Id="filBBCB050D60F9D30636D8D2DFFAD45A92" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\chunkgrid.png" />
+                <File Id="filBBCB050D60F9D30636D8D2DFFAD45A92" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\chunkgrid.png" />
             </Component>
             <Component Id="cmpD2981C07D6F28A1EB61C480BDA35114E" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{4A0B33A4-CE77-40B9-A3F2-8B735433BB13}">
-                <File Id="filCC90EC701CC014468C80A3C6A68A4631" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\chunkgridwithrowcol.png" />
+                <File Id="filCC90EC701CC014468C80A3C6A68A4631" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\chunkgridwithrowcol.png" />
             </Component>
             <Component Id="cmpC623E92BBFB67E2371B6F266758E90F4" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{2C989F55-167C-46F3-A036-2B5173F85230}">
-                <File Id="fil61D9434BFDBDF78A549154F2C9EBF288" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\chunkpositioning.png" />
+                <File Id="fil61D9434BFDBDF78A549154F2C9EBF288" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\chunkpositioning.png" />
             </Component>
             <Component Id="cmp54C9CADD14B2AB3B4258C50C9E72242E" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{6BCE0ECB-AEE3-462A-82E8-20E4E1391CB1}">
-                <File Id="fil682A1A779F791A9879773F7DF02B6DFA" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\chunksintile.png" />
+                <File Id="fil682A1A779F791A9879773F7DF02B6DFA" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\chunksintile.png" />
             </Component>
             <Component Id="cmpA2FCEF26F9BD71BDC16F9D455EC2A91B" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{E8A17F87-41CE-48D9-B2AC-2322DDF30451}">
-                <File Id="filD27887DEB4CE69B68FCF9AC6B3ECCE83" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\chunk_coords.png" />
+                <File Id="filD27887DEB4CE69B68FCF9AC6B3ECCE83" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\chunk_coords.png" />
             </Component>
             <Component Id="cmp71AD9A3B259D8233978282F5E8D019D1" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{023DEDA9-8529-4A58-8A62-9C84672F8236}">
-                <File Id="fil2EAC8DD79C6F9EC711EAD6E7B186A944" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\chunk_height.png" />
+                <File Id="fil2EAC8DD79C6F9EC711EAD6E7B186A944" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\chunk_height.png" />
             </Component>
             <Component Id="cmpED3BA3C38F6A234B190F5B6EC4A15133" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{80920A0D-5EAA-49C7-A066-C3C1A14FB240}">
-                <File Id="filE613C3A6CC68FBA51CB8DBE5C27F50D6" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\chunk_perspective.png" />
+                <File Id="filE613C3A6CC68FBA51CB8DBE5C27F50D6" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\chunk_perspective.png" />
             </Component>
             <Component Id="cmpA85791E5D90245FFDFF4E269D7560D49" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{C623C6D9-9C4A-48E4-98FB-9829F6759A85}">
-                <File Id="fil7F1E34C50658D3C8D0031CBA731D71F0" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\chunk_width.png" />
+                <File Id="fil7F1E34C50658D3C8D0031CBA731D71F0" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\chunk_width.png" />
             </Component>
             <Component Id="cmp1F6F9E696316E1BCAD5122034784264E" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{564D7378-6ADC-4F7C-887E-211BF5B391E6}">
-                <File Id="fil3BAC0C78024C6A9AD467B49A4EED2C29" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\cmd.png" />
+                <File Id="fil3BAC0C78024C6A9AD467B49A4EED2C29" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\cmd.png" />
             </Component>
             <Component Id="cmp9AD41D4EB1103F3F699F5ED783A8F588" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{3EF754F6-C0FC-410C-BE17-91F83423AFC0}">
-                <File Id="fil168AC55A19E36D41DE1336F37C2E080B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\computer_properties.png" />
+                <File Id="fil168AC55A19E36D41DE1336F37C2E080B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\computer_properties.png" />
             </Component>
             <Component Id="cmp287E98BCE7F52C447EE383864188F728" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{3E1BAA74-AC99-464A-AAE9-A002A90F6907}">
-                <File Id="filF58B7BE22DCE4808BA21C5D00978A415" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\cube_horizontal_offset.png" />
+                <File Id="filF58B7BE22DCE4808BA21C5D00978A415" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\cube_horizontal_offset.png" />
             </Component>
             <Component Id="cmp67261A48B8F4EF408CB2CF42B23DE323" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{EC6F0AC3-977E-467E-A2B4-62470D317A30}">
-                <File Id="filC1478E443479F4F8E41D1E5C0E1B7BED" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\cube_measurements.png" />
+                <File Id="filC1478E443479F4F8E41D1E5C0E1B7BED" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\cube_measurements.png" />
             </Component>
             <Component Id="cmpB7304FEE8BD0D7F9E45152D99E306EF8" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{09C003F9-9B26-4A8A-BD03-F13A8119BAAA}">
-                <File Id="filA3AD7CBB9B9F7B6C9ACB499832808887" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\cube_neighbors.png" />
+                <File Id="filA3AD7CBB9B9F7B6C9ACB499832808887" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\cube_neighbors.png" />
             </Component>
             <Component Id="cmp30381C245DACC43F9F963B988AA74716" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{B00F1EE6-2AED-455F-BCA3-9CA3E1545037}">
-                <File Id="fil9B358EA5A10011674C447547175B6A59" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\cube_parts.png" />
+                <File Id="fil9B358EA5A10011674C447547175B6A59" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\cube_parts.png" />
             </Component>
             <Component Id="cmp2E634DBEFF36A98E34064F8A44F20CC2" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{014C061C-9ECE-44B9-A67C-F7F149EE32DC}">
-                <File Id="fil0CC43F3462DE7D4E419845F6CDF43421" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\cube_sides.png" />
+                <File Id="fil0CC43F3462DE7D4E419845F6CDF43421" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\cube_sides.png" />
             </Component>
             <Component Id="cmp90F644D847D9A4115DA725918203700B" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{7E8383AA-BAD8-4147-9523-A0421930B0E6}">
-                <File Id="fil23F3D1A8579912D4098B2B50D9811EE0" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\cube_stack16.png" />
+                <File Id="fil23F3D1A8579912D4098B2B50D9811EE0" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\cube_stack16.png" />
             </Component>
             <Component Id="cmp94D04FAB6FA94CCCE897904BD2B6DADE" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{30F513EF-A52D-4C39-A099-1953FA0CD9F1}">
-                <File Id="fil030F35FE7CA998863723CDCFBACA6829" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\cube_stacking.png" />
+                <File Id="fil030F35FE7CA998863723CDCFBACA6829" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\cube_stacking.png" />
             </Component>
             <Component Id="cmp40B37070E11EA85A2AA50E6E542A426E" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{A3198833-FE18-42A5-AE5A-42A0EFBC61BF}">
-                <File Id="filEFE6EDA40DCFB927F421E5C6E16D23FC" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\cube_top.png" />
+                <File Id="filEFE6EDA40DCFB927F421E5C6E16D23FC" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\cube_top.png" />
             </Component>
             <Component Id="cmp035E76A234B423EAD4678213E374FAFA" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{A1B9EA02-E7A9-4430-95A8-0571DC186E93}">
-                <File Id="filF4CACA085D6B33FBDEC403BBAB917F37" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\depth2addresses.png" />
+                <File Id="filF4CACA085D6B33FBDEC403BBAB917F37" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\depth2addresses.png" />
             </Component>
             <Component Id="cmpDACA07F0AC09C8A2FCEAED6EC13C5027" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{FF68B239-61DB-4E66-BFDF-C893DE6FF0EA}">
-                <File Id="fil52F19E3E7C93D9CBBD03913AB860D7C2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\entirechunk.png" />
+                <File Id="fil52F19E3E7C93D9CBBD03913AB860D7C2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\entirechunk.png" />
             </Component>
             <Component Id="cmpFD1ACF79611574FD46C470F97A4A252D" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{2AD874FF-0D6F-422E-A44B-B9512237FC46}">
-                <File Id="fil3CCAD0A774FEDD7332251FA4370AC836" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\extracting.png" />
+                <File Id="fil3CCAD0A774FEDD7332251FA4370AC836" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\extracting.png" />
             </Component>
             <Component Id="cmp8E86FF71FCCC0B518A7F3C1D21ED20BF" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{F917745E-E875-4401-ABED-849FFC2A35B3}">
-                <File Id="fil601B1B976AC1C188A1A9E5F84A1887FC" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\front_page_screenshot.png" />
+                <File Id="fil601B1B976AC1C188A1A9E5F84A1887FC" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\front_page_screenshot.png" />
             </Component>
             <Component Id="cmp574C5526D1E7B64372518F71487ED073" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{D419F28B-5A01-44ED-A6B6-1274394894B2}">
-                <File Id="fil3386DD1971FDEA3CE447F83A7B58C7B5" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\gist1.png" />
+                <File Id="fil3386DD1971FDEA3CE447F83A7B58C7B5" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\gist1.png" />
             </Component>
             <Component Id="cmpF641D73651B70C28E46C03653E9BB58A" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{D67126AD-05DF-4402-8F6A-8EE39121D7C8}">
-                <File Id="fil00C4439FD718473C039C56239C5AF55E" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\gist2.png" />
+                <File Id="fil00C4439FD718473C039C56239C5AF55E" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\gist2.png" />
             </Component>
             <Component Id="cmp93CACA51766EBEC5A2C106913A2CCABA" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{63AFD474-AE68-496F-AE20-97A9B49DF75F}">
-                <File Id="filE2333C4BBE9676DEC0FD62EC0727A791" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\gist3.png" />
+                <File Id="filE2333C4BBE9676DEC0FD62EC0727A791" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\gist3.png" />
             </Component>
             <Component Id="cmp85DAB5822A38DF75D3C89A5117A29A8F" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{9B235E70-039A-4C37-A484-EB763E3730B1}">
-                <File Id="fil84C202588C8A7D0186EC3AA29944764D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\light-eqn.png" />
+                <File Id="fil84C202588C8A7D0186EC3AA29944764D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\light-eqn.png" />
             </Component>
             <Component Id="cmpC466B09D63A3F622F62753073D07FF66" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{8ED73371-B747-4D95-8F53-98BD79B4EDCC}">
-                <File Id="fil6DEA9CA01B8D9FED95EC1954FFD3DEBF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\lighting-process.png" />
+                <File Id="fil6DEA9CA01B8D9FED95EC1954FFD3DEBF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\lighting-process.png" />
             </Component>
             <Component Id="cmpF89273561CCCE0758C7952B1157C7CAC" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{998B0467-53FA-46A9-A713-25EE694851F8}">
-                <File Id="fil5D0D536139DD0F7265A90979895EE5E2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\location1.png" />
+                <File Id="fil5D0D536139DD0F7265A90979895EE5E2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\location1.png" />
             </Component>
             <Component Id="cmp7080FCA574DD5A1844DC43D922B35643" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{EB8DD9B8-E96D-4F7A-BD36-878DEFE4539D}">
-                <File Id="filC8272FA4FA4899E8C6F26CBD662589FE" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\location2.png" />
+                <File Id="filC8272FA4FA4899E8C6F26CBD662589FE" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\location2.png" />
             </Component>
             <Component Id="cmpC2C9FE2586E5B5D0F66FE422620558EA" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{B4475D3A-221C-405D-8371-2E816F4D6ECB}">
-                <File Id="fil3BCD7523001718BF6DF1C1CADCB08AC1" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\opening_cmd.png" />
+                <File Id="fil3BCD7523001718BF6DF1C1CADCB08AC1" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\opening_cmd.png" />
             </Component>
             <Component Id="cmpF0C1243FDF87A241EE393D3DE407FEB8" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{8800BE58-22E4-4511-BC5E-154FC9C9D805}">
-                <File Id="fil3AC61533C8EBA6FCA71D368934CF4313" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\pixelfix.png" />
+                <File Id="fil3AC61533C8EBA6FCA71D368934CF4313" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\pixelfix.png" />
             </Component>
             <Component Id="cmp6C53D5DD26771EACAD3FBCDA906D6C74" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{4F5065E3-C213-433A-B16F-EDFB16F5D051}">
-                <File Id="fil8AD2A7C4E20464454669C95DA0947863" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\screenshot.png" />
+                <File Id="fil8AD2A7C4E20464454669C95DA0947863" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\screenshot.png" />
             </Component>
             <Component Id="cmp8AC4F337CD8FA18111D2A42D928E56E6" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{EC0ECE95-858A-4AD9-90F1-1BD5662FF05C}">
-                <File Id="filD81488EC844AC2A91703B7A8008E3FD7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\smooth-average.png" />
+                <File Id="filD81488EC844AC2A91703B7A8008E3FD7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\smooth-average.png" />
             </Component>
             <Component Id="cmp36EFA53EC89D564F133A8F4DC28FCA0B" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{1E101236-83F6-42F3-AFC8-CD9B14B9E237}">
-                <File Id="fil6E8048F7A59257F2FF81F80FD40D2F2B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\system.png" />
+                <File Id="fil6E8048F7A59257F2FF81F80FD40D2F2B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\system.png" />
             </Component>
             <Component Id="cmpFF2E2BB1A82CD61E6F11D3153ECE8310" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{26F13AF2-FA63-4109-84FF-6DD06D6438D3}">
-                <File Id="filAA77F61D1D32A0AD59A540DEE568A3AD" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\tessellation.png" />
+                <File Id="filAA77F61D1D32A0AD59A540DEE568A3AD" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\tessellation.png" />
             </Component>
             <Component Id="cmp6C24EE284F08B9C028DB44C0F6EB5C84" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{B133F170-D1BF-413C-AC69-005E193FF5BC}">
-                <File Id="fil92F40718ADFB638761D26D89FFCC1780" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\texturecubing.png" />
+                <File Id="fil92F40718ADFB638761D26D89FFCC1780" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\texturecubing.png" />
             </Component>
             <Component Id="cmp0F59C6702E8944C96FB8C7FBAEF4DD17" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{35F6CC99-E0B6-40D1-AF39-7CFB88AE20D4}">
-                <File Id="fil9CC8D960E21F4B1BD71BFCF0428E66B0" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\texturesidesteps.png" />
+                <File Id="fil9CC8D960E21F4B1BD71BFCF0428E66B0" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\texturesidesteps.png" />
             </Component>
             <Component Id="cmpFB0CB9FE4DC4950FEAE414875CFB9FE3" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{5B872707-B323-4C27-AC1B-220113C8A8AC}">
-                <File Id="fil95EB33C565581E0266A1040E7B1C12D8" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\texturetopsteps.png" />
+                <File Id="fil95EB33C565581E0266A1040E7B1C12D8" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\texturetopsteps.png" />
             </Component>
             <Component Id="cmp2213BDFEFC7C04A3DE7AE3C50CA5A5A5" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{C61AFEE1-D6AA-475A-99C8-A21BE4C72A1E}">
-                <File Id="fil92354FF21F94CEAE81E0EDCB1D4D1964" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\tilegrid.png" />
+                <File Id="fil92354FF21F94CEAE81E0EDCB1D4D1964" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\tilegrid.png" />
             </Component>
             <Component Id="cmp194DD16A8506B1DA9C171C071AA63BD2" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{486D9710-E58A-48D6-ABC8-160D7D132436}">
-                <File Id="fil779385E824162199E893242AE127CF69" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\topofchunk.png" />
+                <File Id="fil779385E824162199E893242AE127CF69" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\topofchunk.png" />
             </Component>
             <Component Id="cmp4949FF980C40C2BA44A8541F6EA82904" Directory="dirDD62727919CDCC69D4CBB16AB771F88D" Guid="{0FB459EF-D3F1-4C7B-A1BF-7941D93B473F}">
-                <File Id="filAA86B82EFE510C86CBDFF3A3F1059751" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_images\usage.png" />
+                <File Id="filAA86B82EFE510C86CBDFF3A3F1059751" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_images\usage.png" />
             </Component>
             <Component Id="cmp7D517BC796C58B4246FBBB9DE3C46412" Directory="dirF99B8A97F42E6FFC1B32FDBC42FD9C94" Guid="{C7F32D68-F880-43F3-9F68-D1645A3972B4}">
-                <File Id="fil627A030023226972D88CC20CB9F3A1B2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_sources\building.txt" />
+                <File Id="fil627A030023226972D88CC20CB9F3A1B2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_sources\building.txt" />
             </Component>
             <Component Id="cmp5EC17C76C84DCFD95202149F1C2E1DE7" Directory="dirF99B8A97F42E6FFC1B32FDBC42FD9C94" Guid="{F6683994-869A-43AF-BAE7-550644409361}">
-                <File Id="fil3431A3573CDB73701A7094668250FE99" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_sources\config.txt" />
+                <File Id="fil3431A3573CDB73701A7094668250FE99" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_sources\config.txt" />
             </Component>
             <Component Id="cmp54ECACDBB4DF672AC2BF9BFEFD499BF8" Directory="dirF99B8A97F42E6FFC1B32FDBC42FD9C94" Guid="{CCA0EBBC-BC4E-4243-876C-791D958DCA1F}">
-                <File Id="fil2BD84B644628E6571473DBC415ED36EF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_sources\faq.txt" />
+                <File Id="fil2BD84B644628E6571473DBC415ED36EF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_sources\faq.txt" />
             </Component>
             <Component Id="cmp87A56880842F7808D5984F0178297C7A" Directory="dirF99B8A97F42E6FFC1B32FDBC42FD9C94" Guid="{D0798BC8-C0DC-4385-BA6C-814165042032}">
-                <File Id="fil91A2BA0E74A99DF131C4E5E3FB78014D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_sources\index.txt" />
+                <File Id="fil91A2BA0E74A99DF131C4E5E3FB78014D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_sources\index.txt" />
             </Component>
             <Component Id="cmpD56A9424FF486013D24D65C1AF0AFA92" Directory="dirF99B8A97F42E6FFC1B32FDBC42FD9C94" Guid="{EDA44E62-0B7C-4BB7-93A9-CE899164E3AA}">
-                <File Id="filB68BB601CEDB79CD8C345649E28A1754" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_sources\installing.txt" />
+                <File Id="filB68BB601CEDB79CD8C345649E28A1754" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_sources\installing.txt" />
             </Component>
             <Component Id="cmp78017E3CEB6CF6A9653A43855AE9BCA4" Directory="dirF99B8A97F42E6FFC1B32FDBC42FD9C94" Guid="{F663A7B1-DA9B-4EC0-8D3A-E64239FB537B}">
-                <File Id="fil2577EE58C5A8D2B037F3C4A0176AA3D8" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_sources\running.txt" />
+                <File Id="fil2577EE58C5A8D2B037F3C4A0176AA3D8" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_sources\running.txt" />
             </Component>
             <Component Id="cmpB276F04E01CA8D909F6A156E6089C2C2" Directory="dirF99B8A97F42E6FFC1B32FDBC42FD9C94" Guid="{C32CE55E-0606-447C-B081-4F8F61679917}">
-                <File Id="filC4AFC09E24465D690CB62B0F839710BD" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_sources\signs.txt" />
+                <File Id="filC4AFC09E24465D690CB62B0F839710BD" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_sources\signs.txt" />
             </Component>
             <Component Id="cmp71DFF0BC1597FE08C57803C12F46BD8E" Directory="dir9052280F8651FC70511F3BE3DE5F12D3" Guid="{B264ACFD-E5E7-413C-BD1E-772257DAA917}">
-                <File Id="fil3D08B48608A57A5EE48CF216847DA596" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_sources\design\designdoc.txt" />
+                <File Id="fil3D08B48608A57A5EE48CF216847DA596" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_sources\design\designdoc.txt" />
             </Component>
             <Component Id="cmpDD012689F0C45F7F964B78911B2BD17E" Directory="dirD78E7CB58C757AD11FA3BF5187FD3C06" Guid="{CD120520-83C6-4273-83BE-326805813C57}">
-                <File Id="filD3632D2CE22BE9AFC1E4093485175486" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_sources\win_tut\windowsguide.txt" />
+                <File Id="filD3632D2CE22BE9AFC1E4093485175486" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_sources\win_tut\windowsguide.txt" />
             </Component>
             <Component Id="cmp9BF5521F3116B2EFC14743ABE3DF9EE4" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{7873CE15-9E48-4E70-8B5A-41EF761974D3}">
-                <File Id="fil49D1DFB109CEE662FB43B68872878F46" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\ajax-loader.gif" />
+                <File Id="fil49D1DFB109CEE662FB43B68872878F46" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\ajax-loader.gif" />
             </Component>
             <Component Id="cmp97E67F41BFFB6677C35DE9807D70C354" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{8BF459CC-B925-4EAF-B39E-04F1BBB200DB}">
-                <File Id="filFE3F520935396561F61B4A9D12F532CC" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\basic.css" />
+                <File Id="filFE3F520935396561F61B4A9D12F532CC" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\basic.css" />
             </Component>
             <Component Id="cmpC2AF39C0CB5EBE0BD5DC0CAD1D5CB51A" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{7B8504DB-8E6D-4B41-9804-DDCA91972D81}">
-                <File Id="filC297C122DAB93C5310FBFF683791CBB0" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\comment-bright.png" />
+                <File Id="filC297C122DAB93C5310FBFF683791CBB0" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\comment-bright.png" />
             </Component>
             <Component Id="cmpEBD86A03C747DB5876D7697739F07B2A" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{BD671A17-B1D8-4E00-9759-CC675EECB027}">
-                <File Id="filA1B53ABDD98902529D51E32ED87696DF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\comment-close.png" />
+                <File Id="filA1B53ABDD98902529D51E32ED87696DF" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\comment-close.png" />
             </Component>
             <Component Id="cmp6B29D8C853196BBAE94E5EA4F33294DD" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{B4412A1C-4526-4732-91D1-5904BA2F562A}">
-                <File Id="fil5E3F195F6E1277BD709EEF3BAFC7E98B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\comment.png" />
+                <File Id="fil5E3F195F6E1277BD709EEF3BAFC7E98B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\comment.png" />
             </Component>
             <Component Id="cmp04FBB906BF1459DB0E24626D0B8E9CB2" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{254BA519-D740-4B60-8EBD-9A4D885932F0}">
-                <File Id="filB78848F306B29C6E630C9E427D9855C4" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\default.css" />
+                <File Id="filB78848F306B29C6E630C9E427D9855C4" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\default.css" />
             </Component>
             <Component Id="cmp5B3DE3CBCA1D6BD04B87CEABDE132BA7" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{4041212D-2DC1-43FC-BFD7-DBDED83F65CB}">
-                <File Id="fil4AA5B5CDCEBBD345236DFB27FBA513C1" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\doctools.js" />
+                <File Id="fil4AA5B5CDCEBBD345236DFB27FBA513C1" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\doctools.js" />
             </Component>
             <Component Id="cmpB9B03FF26827DDD90C0FE14CFCEA0AA6" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{27A508A4-054F-4834-BFD7-B21D39F184E9}">
-                <File Id="filE5DC22CACAC8D862A5E5B580472E3379" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\down-pressed.png" />
+                <File Id="filE5DC22CACAC8D862A5E5B580472E3379" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\down-pressed.png" />
             </Component>
             <Component Id="cmp0CDA8CD83AC7385A661E5B0B9C61B2BB" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{89C63FF3-FE95-4927-9AA0-41FA7117D94E}">
-                <File Id="fil959C277BE57E2079467AEF673609E3A7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\down.png" />
+                <File Id="fil959C277BE57E2079467AEF673609E3A7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\down.png" />
             </Component>
             <Component Id="cmp41FF68FB43ADD53E89230130F2CB944D" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{6F0576D0-1171-4A69-8319-E720F43AC3F5}">
-                <File Id="fil8E6F429D1036735C01788A07966A8FA8" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\file.png" />
+                <File Id="fil8E6F429D1036735C01788A07966A8FA8" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\file.png" />
             </Component>
             <Component Id="cmpBDBB1F34C9277DF0E62D25D9CAE0040F" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{0A882A96-70E8-4C42-969B-D5BDA79B7023}">
-                <File Id="fil588B73B18B609E8C1CA5D7E4B996C33B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\jquery.js" />
+                <File Id="fil588B73B18B609E8C1CA5D7E4B996C33B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\jquery.js" />
             </Component>
             <Component Id="cmp199876A1C9928F27533E4059BB9DA6C0" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{1BF2E501-D53E-4C69-8D1D-F815A7370E3A}">
-                <File Id="filA5B5019C8080451D7E7E3297E4BC1DD9" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\minus.png" />
+                <File Id="filA5B5019C8080451D7E7E3297E4BC1DD9" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\minus.png" />
             </Component>
             <Component Id="cmp909675F47106B61E8AAB74493B119F0F" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{F70B3A10-3169-4C9E-8AB4-985EE6A4D3BF}">
-                <File Id="fil992BFB54847D4A2E40474273B61BC39E" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\plus.png" />
+                <File Id="fil992BFB54847D4A2E40474273B61BC39E" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\plus.png" />
             </Component>
             <Component Id="cmpC28758D34DC2E667F0526F0C0D1BBBD5" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{BA4E23EC-7397-4188-831E-6EE1C0C62584}">
-                <File Id="filDC1C07E709EA1DF9A32BC7A9F571ACBE" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\pygments.css" />
+                <File Id="filDC1C07E709EA1DF9A32BC7A9F571ACBE" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\pygments.css" />
             </Component>
             <Component Id="cmp4752F89E682F4CD4743A0535AC51B8D1" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{79136307-A970-4ED4-B748-988B856656FA}">
-                <File Id="filEB52414D9B2E7FDBB81475C2F870B110" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\searchtools.js" />
+                <File Id="filEB52414D9B2E7FDBB81475C2F870B110" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\searchtools.js" />
             </Component>
             <Component Id="cmpC91189F2A58C343523E6DCCDEE64993D" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{83B71AB4-D1D9-48A5-A23F-EE972CC61ED1}">
-                <File Id="fil7D6C918871CAC277DB5655EC9C56ADB7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\sidebar.js" />
+                <File Id="fil7D6C918871CAC277DB5655EC9C56ADB7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\sidebar.js" />
             </Component>
             <Component Id="cmp4348B5CAD5D0E5230298DEF425D0D3DE" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{B5C88BA4-8BA2-4EA7-9859-354642081EE5}">
-                <File Id="fil50FE55404B2FCF254BA31C8923CEF5B7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\underscore.js" />
+                <File Id="fil50FE55404B2FCF254BA31C8923CEF5B7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\underscore.js" />
             </Component>
             <Component Id="cmpD9CF98A36CD6D8636AFD85078283B689" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{CD1570E5-5BF8-4CDE-8DF2-5D122887596E}">
-                <File Id="fil06AD5F7B827C35FCB585BF688CE80BC2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\up-pressed.png" />
+                <File Id="fil06AD5F7B827C35FCB585BF688CE80BC2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\up-pressed.png" />
             </Component>
             <Component Id="cmpC31B08735221123472F27588E9EDCBCB" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{8841787D-2181-48DE-8897-0CF4BF6022F1}">
-                <File Id="fil8F33BA93754CB6717CA3F1A5A0A65D21" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\up.png" />
+                <File Id="fil8F33BA93754CB6717CA3F1A5A0A65D21" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\up.png" />
             </Component>
             <Component Id="cmpD4800A3506D85071B9A2608EEBB2C355" Directory="dir8E4E60D8B216766DE93E14F96ACA0B4E" Guid="{CACA3BEE-BD8E-4569-A0CC-E12BE1CEA611}">
-                <File Id="fil3AD61FDE9FC58CA7E6F9F08020B3DF9A" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\docs\_static\websupport.js" />
+                <File Id="fil3AD61FDE9FC58CA7E6F9F08020B3DF9A" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\docs\_static\websupport.js" />
             </Component>
             <Component Id="cmpA36AEE3C98DA4B219728F3210343D186" Directory="dir05E80558CF17AF235A168372F9B66EB8" Guid="{C6651223-8CCB-41D3-B69B-A9223785FDBC}">
-                <File Id="fil333F8C2426A7D9910CB72923E7D3AA16" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\js_src\models.js" />
+                <File Id="fil333F8C2426A7D9910CB72923E7D3AA16" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\js_src\models.js" />
             </Component>
             <Component Id="cmp9D304CAEC5AD0828A6CA01A0B95AE93D" Directory="dir05E80558CF17AF235A168372F9B66EB8" Guid="{BCCD190E-110F-48E8-B259-8F8E1CA3E4AA}">
-                <File Id="filEB1B1E25854D8C68CF303A00A5A51F4B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\js_src\overviewer.js" />
+                <File Id="filEB1B1E25854D8C68CF303A00A5A51F4B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\js_src\overviewer.js" />
             </Component>
             <Component Id="cmp001A8051B71BF444977ACBA09CA8D3CC" Directory="dir05E80558CF17AF235A168372F9B66EB8" Guid="{C1704D10-9B52-4AC0-AD8F-DA13C144A6C7}">
-                <File Id="fil767274EF87AD34E840B64974BCFDCD4B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\js_src\util.js" />
+                <File Id="fil767274EF87AD34E840B64974BCFDCD4B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\js_src\util.js" />
             </Component>
             <Component Id="cmpEE4076D4F4B02B7587A3D551F9A62D4B" Directory="dir05E80558CF17AF235A168372F9B66EB8" Guid="{C32241EC-5760-4FBE-A009-733D4B614A43}">
-                <File Id="filA5637F59CC7D333EADA322E2BF106ACB" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\js_src\views.js" />
+                <File Id="filA5637F59CC7D333EADA322E2BF106ACB" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\js_src\views.js" />
             </Component>
             <Component Id="cmpCA7353BBCB1C00A0B7DD609C5911241E" Directory="dirBEFFF36FD0B9D50E0E612198CC8FFE03" Guid="{47FD00A0-8C03-4D98-A033-9FE9B58D5C4D}">
-                <File Id="fil19C6394F9DDF332C55C361E8A880F0B2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\textures\chest.png" />
+                <File Id="fil19C6394F9DDF332C55C361E8A880F0B2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\textures\chest.png" />
             </Component>
             <Component Id="cmpC63AC7F4CD77AAE67A6582B3D49AA37C" Directory="dirBEFFF36FD0B9D50E0E612198CC8FFE03" Guid="{65029F21-7EF0-4CBE-BA22-718425E830CC}">
-                <File Id="fil0B069991037B242CF3CDD00D7F6E971F" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\textures\ender.png" />
+                <File Id="fil0B069991037B242CF3CDD00D7F6E971F" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\textures\ender.png" />
             </Component>
             <Component Id="cmpF8F6327382F614E03C0BDABC0E77DB79" Directory="dirBEFFF36FD0B9D50E0E612198CC8FFE03" Guid="{574269BE-E268-488D-B01E-3C320F4AB876}">
-                <File Id="fil13962D77D9B19026E953D1CC8163E907" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\textures\fire.png" />
+                <File Id="fil13962D77D9B19026E953D1CC8163E907" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\textures\fire.png" />
             </Component>
             <Component Id="cmp5A7F1A73691A5E44C5C77A426008BD1D" Directory="dirBEFFF36FD0B9D50E0E612198CC8FFE03" Guid="{48600FB0-A0C9-4EC3-86A8-EACF91B845C7}">
-                <File Id="filE164C8CD7569D4358188B6788DBDB80D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\textures\foliage.png" />
+                <File Id="filE164C8CD7569D4358188B6788DBDB80D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\textures\foliage.png" />
             </Component>
             <Component Id="cmp2355997D050BE555ECB27D554D57558C" Directory="dirBEFFF36FD0B9D50E0E612198CC8FFE03" Guid="{77477AC8-B612-4EAD-9BDB-199D4EBE3D73}">
-                <File Id="filF1E06AB7E31B04B5397C87D900A945EB" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\textures\grass.png" />
+                <File Id="filF1E06AB7E31B04B5397C87D900A945EB" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\textures\grass.png" />
             </Component>
             <Component Id="cmp23CB3EEA1BD51563D1726CC922182BB5" Directory="dirBEFFF36FD0B9D50E0E612198CC8FFE03" Guid="{08179D82-AED1-40B0-A3D2-A2275E0E054A}">
-                <File Id="fil6851D0483E60A9A323BFC8418B53E22C" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\textures\lava.png" />
+                <File Id="fil6851D0483E60A9A323BFC8418B53E22C" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\textures\lava.png" />
             </Component>
             <Component Id="cmp03721C3B201C4888FECF83E10CAE5ED4" Directory="dirBEFFF36FD0B9D50E0E612198CC8FFE03" Guid="{E76FA75A-E65C-4A71-BB64-672CC722917D}">
-                <File Id="filC319B58437ACC9AA0A5663041F3376C6" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\textures\light_normal.png" />
+                <File Id="filC319B58437ACC9AA0A5663041F3376C6" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\textures\light_normal.png" />
             </Component>
             <Component Id="cmpD36AC756AE8DC75D97B4203C44062618" Directory="dirBEFFF36FD0B9D50E0E612198CC8FFE03" Guid="{D5F2B045-34E6-454C-B1B1-A376C225A861}">
-                <File Id="fil96B4748F2384089EE4B8775C4FC45728" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\textures\normal_double.png" />
+                <File Id="fil96B4748F2384089EE4B8775C4FC45728" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\textures\normal_double.png" />
             </Component>
             <Component Id="cmp9E9FA403FB826B673A320119DF1E5660" Directory="dirBEFFF36FD0B9D50E0E612198CC8FFE03" Guid="{CD86E8B7-B04C-4064-AF49-06170C1B7845}">
-                <File Id="fil2A8011B2F91F26FB33F727DCFB0B3D12" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\textures\portal.png" />
+                <File Id="fil2A8011B2F91F26FB33F727DCFB0B3D12" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\textures\portal.png" />
             </Component>
             <Component Id="cmp51D3CED3EBE43D4781C07FAAB87C1409" Directory="dirBEFFF36FD0B9D50E0E612198CC8FFE03" Guid="{613AECFA-DA64-43B5-B81D-67EB7AD9AB8D}">
-                <File Id="filAAC538F49F4B640CFA817D1251FCADD4" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\textures\water.png" />
+                <File Id="filAAC538F49F4B640CFA817D1251FCADD4" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\textures\water.png" />
             </Component>
             <Component Id="cmp320E0B4FE317121BA46BB144969F9BE5" Directory="dirBEFFF36FD0B9D50E0E612198CC8FFE03" Guid="{444374AA-AD32-44F5-AA2C-75CA98CED476}">
-                <File Id="fil145F0415791E77D93B34D1789D57F384" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\textures\watercolor.png" />
+                <File Id="fil145F0415791E77D93B34D1789D57F384" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\textures\watercolor.png" />
             </Component>
             <Component Id="cmp2B6F699290F668DE9B78F774178B5A28" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{2D9110CB-3719-4E96-B6D3-BA3628AE630C}">
-                <File Id="fil24B3D1D1F6BAFCC5F723EAE81B879A20" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\backbone.js" />
+                <File Id="fil24B3D1D1F6BAFCC5F723EAE81B879A20" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\backbone.js" />
             </Component>
             <Component Id="cmp2B14C6C201CE1F8111B36DD224E2EB3E" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{CD0F1C89-0B22-4D53-8796-6C4AB649A61A}">
-                <File Id="filE5E6BDF8D725737D839ABFF43A11A503" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\bed.png" />
+                <File Id="filE5E6BDF8D725737D839ABFF43A11A503" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\bed.png" />
             </Component>
             <Component Id="cmpDD673D760ED0AD3619F7CDBDDCD0769F" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{C487F9B4-5CA6-4220-A03E-5C19AD9E1FFE}">
-                <File Id="fil1D34A623238E1A9BA7177AE886E78ACB" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\compass_lower-left.png" />
+                <File Id="fil1D34A623238E1A9BA7177AE886E78ACB" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\compass_lower-left.png" />
             </Component>
             <Component Id="cmp5F92F9A6EE998261E5935DF74D94B115" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{74647D2F-470C-4B6C-88DF-59FAEFBC3868}">
-                <File Id="filD1B038984943AE1218C935A8CC2137C5" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\compass_lower-right.png" />
+                <File Id="filD1B038984943AE1218C935A8CC2137C5" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\compass_lower-right.png" />
             </Component>
             <Component Id="cmpFB2E0DE5251A8B9E443541947B9914D8" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{002B2C88-9671-4288-94E4-97B8F16FF595}">
-                <File Id="fil315CA423D4423324D3785C689BDE39A7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\compass_upper-left.png" />
+                <File Id="fil315CA423D4423324D3785C689BDE39A7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\compass_upper-left.png" />
             </Component>
             <Component Id="cmpDA5069E4C7844287C1EE485E5E52B02F" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{C95B62A7-91BC-485A-8727-9FDBDA0A0770}">
-                <File Id="fil435828ACF0B6128353E8A8DFAC7FCA59" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\compass_upper-right.png" />
+                <File Id="fil435828ACF0B6128353E8A8DFAC7FCA59" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\compass_upper-right.png" />
             </Component>
             <Component Id="cmp98832F4ED1B7B651742AC40EC253B867" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{8FEFB5A0-4E50-4525-A354-DA964BDCA5F4}">
-                <File Id="fil940AC110D239685612F3328153ABF9AA" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\control-bg-active.png" />
+                <File Id="fil940AC110D239685612F3328153ABF9AA" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\control-bg-active.png" />
             </Component>
             <Component Id="cmp79FB9AB5EC05E6ACBD06AE4F2483B10D" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{20ABC4D5-B2DE-45EA-BCC4-7A1858758127}">
-                <File Id="fil2782F7CB67632B5F2C426E9F071FA11D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\control-bg.png" />
+                <File Id="fil2782F7CB67632B5F2C426E9F071FA11D" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\control-bg.png" />
             </Component>
             <Component Id="cmp3DA775DE50D5B6F130BBFE010E2F3F9E" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{F0389A30-2F84-4AC7-A325-0FE3E3268F2F}">
-                <File Id="filB8C9BF87072B3DEF7693ABACC72E20C2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\index.html" />
+                <File Id="filB8C9BF87072B3DEF7693ABACC72E20C2" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\index.html" />
             </Component>
             <Component Id="cmpF4F05BE50B3700522A53C4DA557ACE0A" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{2DF72396-3A8A-4BAE-B3F5-10F13C8F7F49}">
-                <File Id="filC714947645AD239ED74D9691EFE0DDCA" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\overviewer.css" />
+                <File Id="filC714947645AD239ED74D9691EFE0DDCA" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\overviewer.css" />
             </Component>
             <Component Id="cmp9A8F52A49AEBF930ECE6613067D7620A" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{7904EFF7-67FC-4D54-B398-65BA90AD3A41}">
-                <File Id="fil7D78A353E3BB151E33A56BD9CCE949E1" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\regions.js" />
+                <File Id="fil7D78A353E3BB151E33A56BD9CCE949E1" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\regions.js" />
             </Component>
             <Component Id="cmp53C6F4EDB4A58F1BB23B674F338290CA" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{5F83195E-A12A-4F6D-9FA1-F785104CE285}">
-                <File Id="fil7B32325792A041BDC52CDB0DFEE10DFE" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\signpost-shadow.png" />
+                <File Id="fil7B32325792A041BDC52CDB0DFEE10DFE" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\signpost-shadow.png" />
             </Component>
             <Component Id="cmp09562B8F463FC660839DBC40322798F9" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{A1344483-F3A4-4E8B-BE88-4C87704E9997}">
-                <File Id="filE2A9A248C177CE1308941BCE7EDE9A18" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\signpost.png" />
+                <File Id="filE2A9A248C177CE1308941BCE7EDE9A18" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\signpost.png" />
             </Component>
             <Component Id="cmp22BF0B0DF91EF8D4C4771777532CE8B9" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{A7C42A5F-3008-4CA5-9E4F-611C81073188}">
-                <File Id="fil321CE11BFA4ADEA77E13C65296894532" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\signpost_icon.png" />
+                <File Id="fil321CE11BFA4ADEA77E13C65296894532" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\signpost_icon.png" />
             </Component>
             <Component Id="cmpC4C087C9F8B8FF16CB4812F8EB5058E8" Directory="dir94D8526088A9A97EA4C34A746E385EC1" Guid="{3004DA26-79F5-4141-93F8-96CAF76D045B}">
-                <File Id="filB6B96CEF3F906712592B8F6553BB4690" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\underscore.js" />
+                <File Id="filB6B96CEF3F906712592B8F6553BB4690" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\underscore.js" />
             </Component>
             <Component Id="cmp7FB27F0B80FD3FA45495226AA7012CBF" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{6313DBAC-22B5-43FB-B0D6-61EE84E656B2}">
-                <File Id="filB68AA1B6366D728FFD95E7C464C3680E" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_anvil.png" />
+                <File Id="filB68AA1B6366D728FFD95E7C464C3680E" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_anvil.png" />
             </Component>
             <Component Id="cmp021C6C73296F9D61985FCAC9FCDB4844" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{5FC7554B-5742-4F96-B924-1968BB26F4AC}">
-                <File Id="filB8B593D04DF519AA1900416A4FB33DFD" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_anvil_red.png" />
+                <File Id="filB8B593D04DF519AA1900416A4FB33DFD" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_anvil_red.png" />
             </Component>
             <Component Id="cmpDC29B89B13304614461BC713D40640D6" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{B2A7A430-BF95-4F4A-B46A-E238C5DEE9B5}">
-                <File Id="fil95226D3B8D43C7526485168C77A3181B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_base_plain.svg" />
+                <File Id="fil95226D3B8D43C7526485168C77A3181B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_base_plain.svg" />
             </Component>
             <Component Id="cmp1D74F7700B5337FE7D858EB43649A111" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{CD011E47-6830-4ADD-BEA6-B9321FA30D95}">
-                <File Id="filD799AA910D2419DEFDDB9D6B6E18FDF7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_base_plain_red.svg" />
+                <File Id="filD799AA910D2419DEFDDB9D6B6E18FDF7" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_base_plain_red.svg" />
             </Component>
             <Component Id="cmp8BBD39E0A73FAB9AB403D7AA4473C52C" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{E51C7D2F-2C56-4CDB-B1A2-8A8D3D8A4279}">
-                <File Id="fil9CCA2A54DE80A36521BF1E67BC156B60" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_factory.png" />
+                <File Id="fil9CCA2A54DE80A36521BF1E67BC156B60" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_factory.png" />
             </Component>
             <Component Id="cmp8DFABC7EAA8B34AD211A2CAC72D75927" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{79CA0E21-6BD5-4B3E-B687-74B88D205A61}">
-                <File Id="filBCA201218F2C6FE6EF56F46179D96C33" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_factory_red.png" />
+                <File Id="filBCA201218F2C6FE6EF56F46179D96C33" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_factory_red.png" />
             </Component>
             <Component Id="cmp584819602694908192B9F54729691528" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{5DD6AADF-AE6B-46DD-874F-7F3DEEE27C05}">
-                <File Id="fil54F1D940AFB887C1EE40C4A039B3370B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_hoe.png" />
+                <File Id="fil54F1D940AFB887C1EE40C4A039B3370B" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_hoe.png" />
             </Component>
             <Component Id="cmpB883A663D3EE88B62FA427C51D003F1B" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{0AB5C574-1528-4B43-8574-5F9C1B3309A9}">
-                <File Id="filA8797EAF309BDA42939B341F4966F0E4" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_hoe_red.png" />
+                <File Id="filA8797EAF309BDA42939B341F4966F0E4" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_hoe_red.png" />
             </Component>
             <Component Id="cmpDB99E3C24BCA9C46753B6FECBA69BE80" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{7689D346-5392-40C9-8E72-E55890940137}">
-                <File Id="fil419E181D064017A4C0A38D729081C7E5" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_mine.png" />
+                <File Id="fil419E181D064017A4C0A38D729081C7E5" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_mine.png" />
             </Component>
             <Component Id="cmp63203CF64AAE920BB8DD5F42A040E3F8" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{2F1869AD-7ACB-42DA-A3E5-579CC0AF6B1F}">
-                <File Id="filAA046346E66CC3797F3669BA3E6FC72A" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_mine_red.png" />
+                <File Id="filAA046346E66CC3797F3669BA3E6FC72A" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_mine_red.png" />
             </Component>
             <Component Id="cmp9016EC13C9B4B9A4F6D8A1822CA1EE26" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{944E7DC0-4503-4699-BD66-C111F2E127EE}">
-                <File Id="fil2096B8922FFB659E3D06D1CB13F71BF3" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_ship.png" />
+                <File Id="fil2096B8922FFB659E3D06D1CB13F71BF3" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_ship.png" />
             </Component>
             <Component Id="cmp389A06E2581294103250493D557A7131" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{0E4430F4-B7DD-4F1E-AD0D-6492AE48B345}">
-                <File Id="filD3614950EAC5D73132A6C68119375DAE" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_ship_red.png" />
+                <File Id="filD3614950EAC5D73132A6C68119375DAE" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_ship_red.png" />
             </Component>
             <Component Id="cmp20C0A040F2A39C34DB244ADA90835546" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{7C342EBD-BFC3-40DE-AF46-8EC2E27EDC8C}">
-                <File Id="filE5BBD0D45B35DBD46357EB0A3612DE12" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_tower.png" />
+                <File Id="filE5BBD0D45B35DBD46357EB0A3612DE12" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_tower.png" />
             </Component>
             <Component Id="cmp02B180236C38A2E1BC17656E0C74F346" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{E4C8246D-C19D-47E5-A330-31D67F1F424F}">
-                <File Id="filAF43A597B8DBA3EDAE8A864B96EFF255" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_tower_red.png" />
+                <File Id="filAF43A597B8DBA3EDAE8A864B96EFF255" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_tower_red.png" />
             </Component>
             <Component Id="cmpF9D2D300C8093A5302295459B1B7DA85" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{15FE4B9A-0AA1-4ED0-A9B1-376429A30098}">
-                <File Id="fil28BDD1491362DA4CC9B5DBCA168DBC5F" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_town.png" />
+                <File Id="fil28BDD1491362DA4CC9B5DBCA168DBC5F" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_town.png" />
             </Component>
             <Component Id="cmp07550826042184236157A5495232A1D5" Directory="dirE3F3CBEA4E1E60584D3EF44DC49C3A09" Guid="{6FAF779E-9BCC-4577-A895-A9579FC1E4EE}">
-                <File Id="filA35500A29071E8E415E0547583A48645" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\web_assets\icons\marker_town_red.png" />
+                <File Id="filA35500A29071E8E415E0547583A48645" KeyPath="yes" Source="$(var.SolutionDir)\SourceDir\x64\web_assets\icons\marker_town_red.png" />
             </Component>
         </ComponentGroup>
     </Fragment>
